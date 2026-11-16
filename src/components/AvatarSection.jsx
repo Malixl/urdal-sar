@@ -48,8 +48,8 @@ export default function AvatarSection() {
       </div>
 
       {/* Profile Title */}
-      <h1 className="text-[28px] font-extrabold leading-tight tracking-[-0.5px] text-white sm:text-[32px]">
-        URDAL SAR
+      <h1 className="text-[24px] font-extrabold leading-tight tracking-[-0.5px] text-white sm:text-[28px]">
+        QUICK ACCESS URDAL
       </h1>
 
       {/* Role / Subtitle */}

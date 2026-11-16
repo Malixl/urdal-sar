@@ -14,22 +14,17 @@ const logos = [
     alt: 'Kantor SAR Gorontalo',
     title: 'SAR Gorontalo',
   },
-  {
-    src: '/images/logo-korps-garuda.png',
-    alt: 'Korps Garuda',
-    title: 'Korps Garuda',
-  },
 ]
 
 export default function LogoRow() {
   return (
-    <div className="mt-5 flex items-center justify-center gap-3 sm:gap-4">
+    <div className="mt-5 flex items-center justify-center gap-4 sm:gap-6">
       {logos.map((logo, index) => (
         <div
           key={index}
           className="logo-row-item group relative flex items-center justify-center"
         >
-          <div className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-white/5 p-1 backdrop-blur-sm transition-all duration-300 group-hover:border-[#FF6B00]/50 group-hover:bg-[#FF6B00]/10 group-hover:shadow-lg group-hover:shadow-[#FF6B00]/20 sm:h-12 sm:w-12">
+          <div className="flex h-12 w-12 items-center justify-center rounded-full border border-white/10 bg-white/5 p-1.5 backdrop-blur-sm transition-all duration-300 group-hover:border-[#FF6B00]/50 group-hover:bg-[#FF6B00]/10 group-hover:shadow-lg group-hover:shadow-[#FF6B00]/20 sm:h-14 sm:w-14">
             <img
               src={logo.src}
               alt={logo.alt}
