@@ -12,7 +12,7 @@ const buttons = [
     id: 'siar',
     label: 'SIAR',
     subtitle: 'Aplikasi Inventaris',
-    href: 'https://script.google.com/macros/s/AKfycbwRWMP2cQG4xP-R2LbldDF9z0bm5DTt7NKd9cL6I7E/dev',
+    href: 'https://script.google.com/macros/s/AKfycbzhzzt9sekVeVhHUJqiwH2WWHQ8Ak1dqXiObqXBxnh4NMnWMRApGqdKYtFeFMxjqxOW/exec',
     image: '/images/logo-urdal-squad.jpg',
     badge: 'Logistik',
     style: 'outline',
